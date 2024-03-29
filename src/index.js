@@ -7,19 +7,19 @@ document.getElementById("background-select").addEventListener("change", changeBa
 
             switch (selectedOption) {
                 case "option1":
-                    backgroundImage = `url(/img/480p.jpg)`;
+                    backgroundImage = `url(480p.jpg)`;
                     break;
                 case "option2":
-                    backgroundImage = `url(/img/360p.jpg)`;
+                    backgroundImage = `url(360p.jpg)`;
                     break;
                 case "option3":
-                    backgroundImage = `url(/img/721p.jpg)`;
+                    backgroundImage = `url(721p.jpg)`;
                     break;
                 case "option4":
-                    backgroundImage = `url(/img/1091p.jpg)`;
+                    backgroundImage = `url(1091p.jpg)`;
                     break;
                 default:
-                    backgroundImage = 'url(/img/480p.jpg)';
+                    backgroundImage = 'url(480p.jpg)';
             }
 
             document.body.style.backgroundImage = backgroundImage;
